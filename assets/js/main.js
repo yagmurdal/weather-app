@@ -17,6 +17,7 @@ $(document).ready(function () {
             })
                 .then(response => {
                     $(".loader").show()
+                    $(".city-info-content").hide()
                     $("#city-name h3").text(response.location.name)
                     $("#city-temp .temp-number").text(response.current.temperature)
                     $("#feels-like .feels-number").text(response.current.feelslike)
