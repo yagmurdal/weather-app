@@ -32,7 +32,6 @@ $(document).ready(function () {
                     }else if (hour > "4" && hour < "15") {
                         app.addClass("day")
                     }
-                    debugger
                     // Fake request delay
                     setTimeout(() => {
                         $(".city-info-content").show()
