@@ -49,6 +49,19 @@ html , body {
     color:#dfa7a0;
 }
 
+.city-info-content {
+    display: none;
+}
+
+.loader {
+    width: 100px;
+    display: none;
+}
+
+.loader img {
+    width: 100%;
+}
+
 #city-info {
     text-align: center;
 }

@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <div id="app">
-        <div id="search-input">
-            <input type="text" placeholder="Search A City">
-        </div>
-        <div id="city-info">
+      <div id="search-input">
+        <input type="text" placeholder="Search A City" />
+      </div>
+      <div id="city-info">
+          <div class="loader">
+            <img src="./assets/image/pacman-loader.gif" alt="">
+          </div>
+        <div class="city-info-content">
             <div id="city-name"><h3>LONDON</h3></div>
-            <div id="city-temp"><span>25°C</span></div>
-            <div id="feels-like"><p>Feels like <span>28°C</span></p></div>
+            <div id="city-temp">
+              <span class="temp-number">25</span><span>°C</span>
+            </div>
+            <div id="feels-like">
+              <p>
+                Feels like <span class="feels-number">28</span>
+                <span>°C</span>
+              </p>
+            </div>
         </div>
-        
+      </div>
     </div>
-
-
-
-
-
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./assets/js/main.js"></script>
-</body>
+  </body>
 </html>
