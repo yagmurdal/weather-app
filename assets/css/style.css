@@ -25,6 +25,15 @@ html , body {
     background-size: cover;
 }
 
+#app.night {
+    background-image: url(../image/night.jpg);
+    color: #ffffff;
+}
+
+#app.day {
+    background-image: url(../image/day.jpg);
+}
+
 #app #search-input {
     width: 70%;
     height: 60px;
